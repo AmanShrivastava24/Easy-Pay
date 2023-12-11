@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+    
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <img src="Capture.PNG" width="100px" height="40px" <a href="index.html">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="about .html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Phones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="laptop.html">Iphone </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">OnePluse </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Samsung </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Nokia</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Vivo</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Motorola </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Oppo</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Techno </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Sony</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Xiaomi </a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Realme</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Lava</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">LG</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Lenovo</a></li>
+                </li>
+                <li><a class="dropdown-item" href="Accesories.html">Accesories</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact us.html" tabindex="-1" aria-disabled="true">Contact
+                    Us</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+            </form>
+            <button style="margin-left: 2px;" class="btn btn-outline-success" type="submit">
+                <a href="login.html"></a>log in</button>
+            <button style="margin-left: 2px;" class="btn btn-outline-success" type="submit">sign up</button>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div style="margin: 20px;">
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="man-looking-attractive.webp" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>jane@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="slider-women-final-1.png" alt="Mike" style="width:100%" height="270px">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="man-looking-attractive.webp" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+              <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+          <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+          <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                      <!-- Content -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          <i class="fas fa-gem me-3"></i>Company name
+                      </h6>
+                      <p>
+                          Our commitment is your success, and we provide effective solutions to foster transformative
+                          growth.
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Products
+                      </h6>
+                      <p>
+                          <a href="#!" class="text-reset">Iphone</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Google pixel</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">One plus</a>
+                      </p>
+                      <p>
+                          <a href="#!" class="text-reset">Samsung</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                          Useful links
+                      </h6>
+                      <p>
+                          <a href="www.facebook.com" class="text-reset">facebook</a>
+                      </p>
+                      <p>
+                          <a href="https://www.instagram.com/accounts/login/" class="text-reset">Instagram</a>
+                      </p>
+                      <p>
+                          <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9061667&mcid=6844056167778418689&cid=&gclid=EAIaIQobChMI2_3_iPSBgwMVmqlmAh1IdQRKEAAYASAAEgIez_D_BwE&gclsrc=aw.ds"
+                              class="text-reset">linkedin</a>
+                      </p>
+                      <p>
+                          <a href="https://www.google.com/intl/en_in/gmail/about/" class="text-reset">Email</a>
+                      </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                      <p><i class="fas fa-home me-3"></i>Red Wolf Hi-tech Pvt.Ltd.
+                          214,Tower-4 Assotech Business Cresterra Sector 135, Noida - 201301.</p>
+                      <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          support@Redwolfhitech.com
+                      </p>
+                      <p><i class="fas fa-phone me-3"></i> + 91 9988908111</p>
+                      <p><i class="fas fa-print me-3"></i> + 91 9988401333</p>
+                  </div>
+                  <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+          </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://redwolfhitech.com//">Redwolfhitech</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+</body>
+</html>
